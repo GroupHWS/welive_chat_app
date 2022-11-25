@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1047705650216",
+    "project_id": "welive-b5e0e",
+    "storage_bucket": "welive-b5e0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047705650216:android:2b53feca16365e708c611d",
+        "android_client_info": {
+          "package_name": "com.example.we_live_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047705650216-fpndd2jf0sm774krnuh9rf81ioe26n4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-HCJ0DRYpNJ0gjWAj-wskpEAEsG-p6Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047705650216-fpndd2jf0sm774krnuh9rf81ioe26n4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
