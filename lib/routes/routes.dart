@@ -4,6 +4,7 @@ import 'package:we_live_chat_app/views/bookings.dart';
 import 'package:we_live_chat_app/views/chat.dart';
 import 'package:we_live_chat_app/views/home_view.dart';
 import 'package:we_live_chat_app/views/info_splash.dart';
+import 'package:we_live_chat_app/views/journal_screen.dart';
 import 'package:we_live_chat_app/views/profile_user.dart';
 import 'package:we_live_chat_app/views/user_home.dart';
 
@@ -14,6 +15,7 @@ class RouteManager {
   static const String homeChat = 'homeChat';
   static const String userProfile = 'userProfile';
   static const String bookings = 'bookings';
+  static const String journalScreen = 'journalScreen';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -45,6 +47,11 @@ class RouteManager {
       case bookings:
         return MaterialPageRoute(
           builder: (context) => Bookings(),
+        );
+
+      case journalScreen:
+        return MaterialPageRoute(
+          builder: (context) => JournalView(),
         );
 
       default:
